@@ -2,6 +2,8 @@
 
 A macOS menu bar app for monitoring and managing local dev server processes.
 
+<img src="https://harbor.katiawheeler.com/og-image.png" height="600px" alt="A screenshot of the Harbor website" />
+
 ## What It Does
 
 Harbor lives in your menu bar and keeps track of every dev server running on your machine. Left-click the ferry icon to see all running servers; right-click for a Quit option.
