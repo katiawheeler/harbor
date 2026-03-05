@@ -17,6 +17,7 @@
 		74A561C6A8641A302C410678 /* ProcessMonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F32C713E7F2240DFE0B9509 /* ProcessMonitorViewModel.swift */; };
 		8B7CED8FBDCAC89BBA0371C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97B49890F294876F66C172 /* MainView.swift */; };
 		A2CB95C639B60406204E05E1 /* SessionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1564F2F6846B2A6866B5B2F /* SessionStatus.swift */; };
+		A49B824542002A454953E814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDAE973B1A534EA0B6B2809 /* Assets.xcassets */; };
 		DE932958E779E53D99D05EEB /* HarborApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D491BDCD0DEF349A09CAB647 /* HarborApp.swift */; };
 		F717A377DFCE77E88E1C7C35 /* ProcessDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71BCB945529E4F7ADF127A /* ProcessDiscoveryService.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		05C10110754D2381D224C745 /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
 		1848153E952A6819E8DF92D4 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		2DDAE973B1A534EA0B6B2809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E97B49890F294876F66C172 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2F32C713E7F2240DFE0B9509 /* ProcessMonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMonitorViewModel.swift; sourceTree = "<group>"; };
 		3ADB458F08ACEDDFC79F2535 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		4B6E6FF1AAF0F1E58A96AFE0 = {
 			isa = PBXGroup;
 			children = (
+				2DDAE973B1A534EA0B6B2809 /* Assets.xcassets */,
 				8F4820703DF5E920A547FF17 /* harbor */,
 				CC43AAD20CAB978C29A392F1 /* Products */,
 			);
@@ -114,6 +117,7 @@
 			buildConfigurationList = AA18A3D193C4C448EF1F0ED9 /* Build configuration list for PBXNativeTarget "Harbor" */;
 			buildPhases = (
 				95C0E0518523BE9E818074B0 /* Sources */,
+				C8A0BF7D5CDC9B3299ABC59F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +157,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A0BF7D5CDC9B3299ABC59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49B824542002A454953E814 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95C0E0518523BE9E818074B0 /* Sources */ = {

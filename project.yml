@@ -18,7 +18,6 @@ targets:
     platform: macOS
     sources:
       - path: Sources/harbor
-    resources:
       - path: Assets.xcassets
     settings:
       base:
@@ -31,5 +30,6 @@ targets:
         GENERATE_INFOPLIST_FILE: false
         SWIFT_EMIT_LOC_STRINGS: "YES"
         ENABLE_PREVIEWS: "YES"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     entitlements:
       path: SupportingFiles/Harbor.entitlements

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Background gradient - deep ocean to midnight -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F2B3C"/>
+      <stop offset="100%" stop-color="#091A28"/>
+    </linearGradient>
+
+    <!-- Beacon glow -->
+    <radialGradient id="beacon-glow" cx="512" cy="295" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFBE44" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#FF9D2E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF9D2E" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Lighthouse body gradient -->
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8DDD0"/>
+      <stop offset="50%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#D4C9BA"/>
+    </linearGradient>
+
+    <!-- Red stripe gradient -->
+    <linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C94040"/>
+      <stop offset="50%" stop-color="#E05252"/>
+      <stop offset="100%" stop-color="#B33636"/>
+    </linearGradient>
+
+    <!-- Lantern room gradient -->
+    <linearGradient id="lantern" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2A3A4A"/>
+      <stop offset="50%" stop-color="#3D5568"/>
+      <stop offset="100%" stop-color="#1E2E3C"/>
+    </linearGradient>
+
+    <!-- Water gradient -->
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A4A6E"/>
+      <stop offset="100%" stop-color="#0D2840"/>
+    </linearGradient>
+
+    <!-- Beacon light inner glow -->
+    <radialGradient id="light-core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFE4A8"/>
+      <stop offset="100%" stop-color="#FFBE44"/>
+    </radialGradient>
+
+    <!-- Light beam left -->
+    <linearGradient id="beam-l" x1="1" y1="0.5" x2="0" y2="0.5">
+      <stop offset="0%" stop-color="#FFCE66" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFCE66" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Light beam right -->
+    <linearGradient id="beam-r" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#FFCE66" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFCE66" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Subtle star glow -->
+    <radialGradient id="star-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bg)" rx="0"/>
+
+  <!-- Subtle stars -->
+  <circle cx="180" cy="160" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="820" cy="120" r="2.5" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="140" cy="380" r="1.5" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="890" cy="280" r="2" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="300" cy="100" r="1.5" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="720" cy="200" r="2" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="250" cy="260" r="1.5" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="780" cy="370" r="1.5" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Beacon ambient glow -->
+  <circle cx="512" cy="295" r="300" fill="url(#beacon-glow)"/>
+
+  <!-- Light beams -->
+  <!-- Left beam -->
+  <polygon points="470,305 120,230 120,320 470,335" fill="url(#beam-l)" opacity="0.5"/>
+  <!-- Right beam -->
+  <polygon points="554,305 904,230 904,320 554,335" fill="url(#beam-r)" opacity="0.5"/>
+
+  <!-- Water / horizon -->
+  <path d="M0,720 Q120,700 256,720 Q390,740 512,720 Q640,700 768,720 Q900,740 1024,720 L1024,1024 L0,1024 Z" fill="url(#water)" opacity="0.7"/>
+  <path d="M0,750 Q150,735 300,750 Q450,765 600,750 Q750,735 900,750 Q975,758 1024,750 L1024,1024 L0,1024 Z" fill="#0D2840" opacity="0.5"/>
+
+  <!-- Rock base -->
+  <path d="M340,720 Q360,690 400,700 Q430,680 480,695 Q500,678 540,695 Q570,680 610,698 Q650,685 680,720 Z" fill="#2D3D4A"/>
+  <path d="M360,720 Q380,700 420,710 Q460,695 512,705 Q560,693 600,710 Q630,700 660,720 Z" fill="#384858"/>
+
+  <!-- Lighthouse tower -->
+  <!-- Main tower body - tapers upward -->
+  <path d="M450,710 L470,400 L554,400 L574,710 Z" fill="url(#tower)"/>
+
+  <!-- Red stripes -->
+  <path d="M456,648 L460,610 L564,610 L568,648 Z" fill="url(#stripe)"/>
+  <path d="M464,548 L468,510 L556,510 L560,548 Z" fill="url(#stripe)"/>
+  <path d="M472,448 L474,430 L550,430 L552,448 Z" fill="url(#stripe)"/>
+
+  <!-- Gallery/walkway platform -->
+  <rect x="440" y="388" width="144" height="12" rx="2" fill="#3D5568"/>
+  <rect x="435" y="385" width="154" height="6" rx="2" fill="#4A6A80"/>
+
+  <!-- Gallery railing posts -->
+  <rect x="442" y="370" width="2" height="18" fill="#4A6A80"/>
+  <rect x="460" y="370" width="2" height="18" fill="#4A6A80"/>
+  <rect x="478" y="370" width="2" height="18" fill="#4A6A80"/>
+  <rect x="544" y="370" width="2" height="18" fill="#4A6A80"/>
+  <rect x="562" y="370" width="2" height="18" fill="#4A6A80"/>
+  <rect x="580" y="370" width="2" height="18" fill="#4A6A80"/>
+  <!-- Railing bar -->
+  <rect x="440" y="370" width="144" height="2.5" rx="1" fill="#5A7A90"/>
+
+  <!-- Lantern room -->
+  <rect x="468" y="310" width="88" height="76" rx="4" fill="url(#lantern)"/>
+
+  <!-- Lantern glass panes -->
+  <rect x="476" y="318" width="72" height="60" rx="3" fill="#1A3048"/>
+  <!-- Inner light glow in lantern -->
+  <rect x="480" y="322" width="64" height="52" rx="2" fill="url(#light-core)" opacity="0.9"/>
+
+  <!-- Lantern room dividers (mullions) -->
+  <rect x="510" y="310" width="3" height="76" fill="#2A3A4A"/>
+  <rect x="468" y="345" width="88" height="3" fill="#2A3A4A"/>
+
+  <!-- Lantern room cap -->
+  <path d="M464,313 L468,310 L556,310 L560,313 Z" fill="#5A7A90"/>
+
+  <!-- Roof / dome -->
+  <path d="M480,310 Q490,278 512,270 Q534,278 544,310 Z" fill="#3D5568"/>
+  <!-- Roof highlight -->
+  <path d="M494,310 Q500,285 512,280 Q518,285 520,310 Z" fill="#4A6A80" opacity="0.5"/>
+
+  <!-- Finial / lightning rod -->
+  <line x1="512" y1="270" x2="512" y2="248" stroke="#5A7A90" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="512" cy="244" r="5" fill="#FFCE66"/>
+  <circle cx="512" cy="244" r="8" fill="#FFCE66" opacity="0.3"/>
+
+  <!-- Door at base -->
+  <rect x="492" y="672" width="40" height="38" rx="20 20 0 0" fill="#2A3A4A"/>
+  <rect x="496" y="676" width="32" height="34" rx="16 16 0 0" fill="#1A2A38"/>
+  <!-- Door handle -->
+  <circle cx="520" cy="694" r="3" fill="#5A7A90"/>
+
+  <!-- Base platform -->
+  <rect x="430" y="710" width="164" height="14" rx="3" fill="#384858"/>
+
+  <!-- Water reflections -->
+  <rect x="490" y="740" width="44" height="3" rx="1.5" fill="#FFCE66" opacity="0.15"/>
+  <rect x="480" y="760" width="64" height="2" rx="1" fill="#FFCE66" opacity="0.1"/>
+  <rect x="496" y="780" width="32" height="2" rx="1" fill="#FFCE66" opacity="0.07"/>
+
+  <!-- Second water wave layer -->
+  <path d="M0,790 Q140,778 280,790 Q420,802 560,790 Q700,778 840,790 Q940,798 1024,790 L1024,1024 L0,1024 Z" fill="#091A28" opacity="0.4"/>
+</svg>
