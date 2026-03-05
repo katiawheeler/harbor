@@ -18,6 +18,10 @@ Each server entry shows the project name, process, PID, and port — with one-cl
 - **Theme toggle** — light, dark, or system; persisted across launches
 - **Live updates** — polls every 3 seconds
 
+## Release Notes
+
+See [RELEASE_NOTES.md](RELEASE_NOTES.md) for version history.
+
 ## Requirements
 
 - macOS 15+
