@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harbor — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root {
+  --navy-deep: #060E18;
+  --navy: #0B1929;
+  --cream: #F5F0E8;
+  --text-primary: #E2DCD4;
+  --text-secondary: #8A9BAE;
+  --text-dim: #4A6178;
+  --amber: #FFBE44;
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, sans-serif;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--navy-deep);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+nav .nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+nav img {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+nav span {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--text-primary);
+}
+main {
+  flex: 1;
+  padding: 80px 0;
+}
+h1 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  color: var(--cream);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+.updated {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 48px;
+}
+h2 {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--cream);
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+a { color: var(--amber); }
+footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 32px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="./index.html">
+      <img src="./icon_128x128.png" alt="Harbor">
+      <span>Harbor</span>
+    </a>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: March 5, 2026</p>
+
+    <h2>The short version</h2>
+    <p>Harbor does not collect, store, transmit, or share any personal data. Everything happens locally on your Mac.</p>
+
+    <h2>Data collection</h2>
+    <p>Harbor collects no data whatsoever. The app does not contain any analytics frameworks, tracking pixels, crash reporters, or telemetry of any kind. There are no network requests made by Harbor — it operates entirely offline.</p>
+
+    <h2>Local processing</h2>
+    <p>Harbor reads process information from your system using standard macOS APIs to discover running development servers. This information is displayed to you in the app and is never transmitted anywhere. Theme preferences and session data are stored locally in UserDefaults on your machine and are not accessible to anyone else.</p>
+
+    <h2>Third-party services</h2>
+    <p>Harbor uses no third-party services, SDKs, or APIs. There is no server-side component to this application.</p>
+
+    <h2>Children's privacy</h2>
+    <p>Since Harbor collects no data from anyone, it inherently complies with all children's privacy regulations.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the updated version will be posted on this page with a revised date. Given that Harbor collects no data, meaningful changes are unlikely.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or concerns can be directed to the <a href="https://github.com/katiawheeler/harbor/issues">GitHub issues page</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="container">&copy; 2026 Katia Wheeler</div>
+</footer>
+
+</body>
+</html>
