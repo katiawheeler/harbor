@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C52182D0391EE0F0D6FF69 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB458F08ACEDDFC79F2535 /* PersistenceService.swift */; };
+		1DDCC47774461EE0938C1747 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848153E952A6819E8DF92D4 /* EmptyStateView.swift */; };
+		30DF0FDACE34A8DBEF3D0D4A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52481168F46E58D988673CA /* Theme.swift */; };
+		436A20CC9750DED5A05CF901 /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C10110754D2381D224C745 /* StatusIndicatorView.swift */; };
+		4CF7080F0C65CF261AE27918 /* ProcessRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDEF986A33D3996F169FE5 /* ProcessRowView.swift */; };
+		5ED35DDBA863C6B419E6DDEA /* ProcessTerminationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529DA1603194D9FC8D098BD /* ProcessTerminationService.swift */; };
+		606BAE75BBEDB4CDAC857671 /* ServerProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA5B331F2510F069AB8ECD /* ServerProcess.swift */; };
+		74A561C6A8641A302C410678 /* ProcessMonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F32C713E7F2240DFE0B9509 /* ProcessMonitorViewModel.swift */; };
+		8B7CED8FBDCAC89BBA0371C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97B49890F294876F66C172 /* MainView.swift */; };
+		A2CB95C639B60406204E05E1 /* SessionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1564F2F6846B2A6866B5B2F /* SessionStatus.swift */; };
+		DE932958E779E53D99D05EEB /* HarborApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D491BDCD0DEF349A09CAB647 /* HarborApp.swift */; };
+		F717A377DFCE77E88E1C7C35 /* ProcessDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71BCB945529E4F7ADF127A /* ProcessDiscoveryService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C10110754D2381D224C745 /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		1848153E952A6819E8DF92D4 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		2E97B49890F294876F66C172 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2F32C713E7F2240DFE0B9509 /* ProcessMonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMonitorViewModel.swift; sourceTree = "<group>"; };
+		3ADB458F08ACEDDFC79F2535 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		50DDEF986A33D3996F169FE5 /* ProcessRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessRowView.swift; sourceTree = "<group>"; };
+		6D71BCB945529E4F7ADF127A /* ProcessDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessDiscoveryService.swift; sourceTree = "<group>"; };
+		8CAA5B331F2510F069AB8ECD /* ServerProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerProcess.swift; sourceTree = "<group>"; };
+		A1564F2F6846B2A6866B5B2F /* SessionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStatus.swift; sourceTree = "<group>"; };
+		A529DA1603194D9FC8D098BD /* ProcessTerminationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessTerminationService.swift; sourceTree = "<group>"; };
+		C52481168F46E58D988673CA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D491BDCD0DEF349A09CAB647 /* HarborApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborApp.swift; sourceTree = "<group>"; };
+		F4A098FA2BAEE5F46EA2760B /* Harbor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harbor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0489FD9E236AD9E54FAB2C6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1848153E952A6819E8DF92D4 /* EmptyStateView.swift */,
+				2E97B49890F294876F66C172 /* MainView.swift */,
+				50DDEF986A33D3996F169FE5 /* ProcessRowView.swift */,
+				05C10110754D2381D224C745 /* StatusIndicatorView.swift */,
+				C52481168F46E58D988673CA /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05AB0F6C8B231291671A82AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F32C713E7F2240DFE0B9509 /* ProcessMonitorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		086F009162CB0F4C96150B03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CAA5B331F2510F069AB8ECD /* ServerProcess.swift */,
+				A1564F2F6846B2A6866B5B2F /* SessionStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B6E6FF1AAF0F1E58A96AFE0 = {
+			isa = PBXGroup;
+			children = (
+				8F4820703DF5E920A547FF17 /* harbor */,
+				CC43AAD20CAB978C29A392F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4820703DF5E920A547FF17 /* harbor */ = {
+			isa = PBXGroup;
+			children = (
+				D491BDCD0DEF349A09CAB647 /* HarborApp.swift */,
+				086F009162CB0F4C96150B03 /* Models */,
+				E351D462956DABCC6B861F42 /* Services */,
+				05AB0F6C8B231291671A82AD /* ViewModels */,
+				0489FD9E236AD9E54FAB2C6B /* Views */,
+			);
+			name = harbor;
+			path = Sources/harbor;
+			sourceTree = "<group>";
+		};
+		CC43AAD20CAB978C29A392F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A098FA2BAEE5F46EA2760B /* Harbor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E351D462956DABCC6B861F42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3ADB458F08ACEDDFC79F2535 /* PersistenceService.swift */,
+				6D71BCB945529E4F7ADF127A /* ProcessDiscoveryService.swift */,
+				A529DA1603194D9FC8D098BD /* ProcessTerminationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2808BCF99DF40CC4C8E70735 /* Harbor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA18A3D193C4C448EF1F0ED9 /* Build configuration list for PBXNativeTarget "Harbor" */;
+			buildPhases = (
+				95C0E0518523BE9E818074B0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harbor;
+			packageProductDependencies = (
+			);
+			productName = Harbor;
+			productReference = F4A098FA2BAEE5F46EA2760B /* Harbor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A41677E0D3A3B0DE821E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 228E7885A7681524FA70D6D0 /* Build configuration list for PBXProject "Harbor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4B6E6FF1AAF0F1E58A96AFE0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2808BCF99DF40CC4C8E70735 /* Harbor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C0E0518523BE9E818074B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDCC47774461EE0938C1747 /* EmptyStateView.swift in Sources */,
+				DE932958E779E53D99D05EEB /* HarborApp.swift in Sources */,
+				8B7CED8FBDCAC89BBA0371C6 /* MainView.swift in Sources */,
+				12C52182D0391EE0F0D6FF69 /* PersistenceService.swift in Sources */,
+				F717A377DFCE77E88E1C7C35 /* ProcessDiscoveryService.swift in Sources */,
+				74A561C6A8641A302C410678 /* ProcessMonitorViewModel.swift in Sources */,
+				4CF7080F0C65CF261AE27918 /* ProcessRowView.swift in Sources */,
+				5ED35DDBA863C6B419E6DDEA /* ProcessTerminationService.swift in Sources */,
+				606BAE75BBEDB4CDAC857671 /* ServerProcess.swift in Sources */,
+				A2CB95C639B60406204E05E1 /* SessionStatus.swift in Sources */,
+				436A20CC9750DED5A05CF901 /* StatusIndicatorView.swift in Sources */,
+				30DF0FDACE34A8DBEF3D0D4A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3012FBAAF503F3FC0CBC8735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		3E3B329C7B496D999047FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		677653C3AD255A2133EB3608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SupportingFiles/Harbor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katiawheeler.harbor;
+				PRODUCT_NAME = Harbor;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D62A08C885ACC569AA2ADEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SupportingFiles/Harbor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katiawheeler.harbor;
+				PRODUCT_NAME = Harbor;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228E7885A7681524FA70D6D0 /* Build configuration list for PBXProject "Harbor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3012FBAAF503F3FC0CBC8735 /* Debug */,
+				3E3B329C7B496D999047FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA18A3D193C4C448EF1F0ED9 /* Build configuration list for PBXNativeTarget "Harbor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62A08C885ACC569AA2ADEE0 /* Debug */,
+				677653C3AD255A2133EB3608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A41677E0D3A3B0DE821E73 /* Project object */;
+}
