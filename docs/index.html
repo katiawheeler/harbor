@@ -1058,6 +1058,11 @@ footer .container {
   .steps { grid-template-columns: 1fr; gap: 40px; }
   .steps::before { display: none; }
   .runtime-logos { gap: 24px; }
+
+  .mockup-window {
+    transform: none;
+    text-align: left;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1066,6 +1071,15 @@ footer .container {
   .nav-links { gap: 16px; }
   .nav-links li:nth-child(-n+2) { display: none; }
   footer .container { flex-direction: column; gap: 20px; text-align: center; }
+
+  .mockup-wrapper { margin: 0 -8px; }
+  .mock-row { gap: 8px; padding: 10px 10px; }
+  .mock-detail { flex-wrap: wrap; }
+  .mock-actions { gap: 2px; }
+  .mock-action { width: 22px; height: 22px; }
+  .mock-action svg { width: 11px; height: 11px; }
+  .mock-header { padding: 12px 14px; }
+  .mock-list { padding: 8px 8px; }
 }
 </style>
 <script>
